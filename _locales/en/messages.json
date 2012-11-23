@@ -1,0 +1,30 @@
+{
+   "connection_error": {
+      "description": "Connection error",
+      "message": "Sorry, there are connection problems or the language of the text couldn't be detected"
+   },
+   "desc": {
+      "description": "Extension description",
+      "message": "Translate selected text to hindi easily by only right clicking on it!"
+   },
+   "failed": {
+      "description": "Translation failed",
+      "message": "Translation failed."
+   },
+   "chrome_in_extension_gallery": {
+      "description": "Chrome extension gallery restrictions",
+      "message": "Because of security issues, Google restricts extensions to run at Chrome Extensions Gallery page. Please try to run at any other page."
+   },
+   "name": {
+      "description": "Extension name",
+      "message": "Right Click and Translate"
+   },
+   "translate": {
+      "description": "Translate button text in popup",
+      "message": "Translate"
+   },
+   "translating": {
+      "description": "Translating...",
+      "message": "Translating..."
+   }
+}

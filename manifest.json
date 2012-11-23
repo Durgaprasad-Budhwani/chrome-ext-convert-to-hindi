@@ -1,0 +1,25 @@
+{
+   "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+   "browser_action": {
+      "default_icon": "img/icon19.gif",
+      "default_title": "Convert to Hindi"
+   },
+   "content_scripts": [ {
+      "css": [ "css/tooltip.css" ],
+      "js": [ "js/translator.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "This extension is used to convert any language text to Hindi",
+   "icons": {
+      "16": "img/icon16.gif",
+      "19": "img/icon19.gif"
+   },
+   "minimum_chrome_version": "6",
+   "name": "Convert to Hindi",
+   "permissions": [ "contextMenus", "http://*/*", "https://*/*" ],
+   "version": "1.0"
+}
